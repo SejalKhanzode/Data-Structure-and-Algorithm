@@ -2,15 +2,19 @@ package Day1;
 
 public class Pyramid {
     public static void main(String[] args) {
-        int n = 0;
-        for (int row = 0; row <= n; row++) {
-            for (int col = 0; col < n - row - 1; col++) {
+        int n=5;
+        for (int i = 0; i < n; i++) {
+            // space
+            for (int j = 0; j <n-i-1; j++) {
                 System.out.print(" ");
             }
-            for (int col = 0; col < row + 1; col++) {
+            // star
+            for (int j = 0; j <i+1; j++) {
                 System.out.print("* ");
             }
+
+            System.out.println();
         }
-        System.out.println();
+       
     }
 }
