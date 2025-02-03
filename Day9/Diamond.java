@@ -1,4 +1,5 @@
-package Day2;
+package Day9;
+
 
 public class Diamond {
     public static void main(String[] args) {
